@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "./Login.module.css";
 import google from "../assets/google.svg";
 import firebase from 'firebase';
-import {auth} from "../firebase";
+import {auth} from "./firebase";
 
 const Login = () => {
     return (
