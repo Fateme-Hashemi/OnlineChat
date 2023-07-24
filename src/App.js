@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
-import { Route , Switch , Link, Redirect } from 'react-router-dom';
-
-class App extends Component {
-
+import { Route , Switch } from 'react-router-dom';
+import Login from './components/Login';
 
 
-    render() {
-        return (
-            <div>
-
-
-            </div>
-        );
-    }
-}
+const App = () => {
+    return (
+        <div>
+            <Switch>
+                <Route path="/"  component={Login} />
+            </Switch>
+        </div>
+    );
+};
 
 export default App;
