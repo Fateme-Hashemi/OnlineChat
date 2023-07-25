@@ -16,13 +16,16 @@ const Chats = () => {
 
     const history = useHistory();
     const [loading, setLoading]= useState(true);
-    const user= useContext(AuthContext);
+    const user = useContext(AuthContext);
 
 
     const logOutHandler = async () => {
         await auth.signOut();
         history.push("/");
     }
+
+
+
     useEffect(()=> {
         if(!user) {
             history.push('/');
