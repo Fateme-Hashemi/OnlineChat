@@ -1,11 +1,11 @@
 import firebase from "firebase/app";
 import "firebase/auth";
 
-export const auth = firebase.initializeApp ({
-    apiKey: "AIzaSyBD6zjc7luc5--g2PQK1xowWo9LgOFWOJQ",
-    authDomain: "botogram-74df1.firebaseapp.com",
-    projectId: "botogram-74df1",
-    storageBucket: "botogram-74df1.appspot.com",
-    messagingSenderId: "572210606744",
-    appId: "1:572210606744:web:6d8672623a37f0489616ed"
+export const auth = firebase.initializeApp({
+    apiKey: "AIzaSyABsh5RciGSrX2iyjFKTnC1k0vzBEz2UVY",
+    authDomain: "botogram-ca064.firebaseapp.com",
+    projectId: "botogram-ca064",
+    storageBucket: "botogram-ca064.appspot.com",
+    messagingSenderId: "491761691080",
+    appId: "1:491761691080:web:622adb07974de4a59a78fd"
   }).auth();
